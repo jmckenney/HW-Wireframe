@@ -1,3 +1,76 @@
+footer {
+    clear:both;
+    background-color: #ebebeb;
+    margin-right: -100px;
+    margin-left: 165px;
+    margin-bottom: 15px;
+    padding: 35px;    
+}
+
+aside {
+    background-color: #ebebeb;
+    width: 350px;
+    height: 250px;
+    border: 5px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: -100px;
+    padding-top: 35px;
+    padding-left: 25px;
+    float: right;
+}
+
+#p {
+    background-color: #ebebeb;
+    width: 380px;
+    margin: 0 auto;
+    padding: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+    position: relative;
+    top: 45px;
+    right:1px;
+}
+
+#h {
+    background-color: #ebebeb;
+    width: 380px;
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+    top: 35px;
+    right: 1px;
+}
+
+article:first-line {
+    color: #ebebeb;
+}
+
+article {
+    width: 450px;
+    height: 210px;
+    background-color: #777;
+    margin-left: 7px;
+    padding-top: 10px;
+}
+
+section {
+    /* tired to push "Section", Couldn't fix */
+    text-align: center;
+    background-color: #ebebeb;
+    width: 400px;
+    height: 250px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 165px;
+    margin-bottom: 15px;
+    padding-top: 35px;
+    padding-right: 80px;
+    padding-left: 20px;
+    float:left;
+}
+
 nav {
     background-color: #ebebeb;
     width: 495px;
@@ -9,8 +82,9 @@ nav {
     padding-right: 200px;
     padding-top: 35px;
     padding-bottom: 35px;
-    text-align: center;
     float:right;
+    display: block;
+    clear: both;
 }
 
 header {
@@ -24,14 +98,16 @@ header {
     padding-right: 200px;
     padding-top:35px;
     padding-bottom: 35px;
-    text-align: center;
     float:right;
+    display: block;
 }
 
 body {
     background-color: #777;
-    /*add when boxes formed --> color: #777 */
+    color: #777;
     width: 960px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    overflow: scroll;
+    text-align: center;
 }
